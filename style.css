@@ -1,0 +1,100 @@
+body{
+    margin: 30px auto;
+    background-color: rgb(241, 239, 239);
+}
+
+/* cały formularz*/
+#container {
+    background-color: rgb(241, 239, 239);
+    width: 520px;
+    height:320px;
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    box-shadow: 0px 0px 0px 5px rgba(135,135,135,0.05);
+    color: black;
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* p - wcięcie*/
+p{
+    text-indent: 1px;
+}
+
+#naglowek {
+    font-size: 15px;
+    margin-top: -40px;
+    margin-bottom: 25px;
+    text-align: center;
+    border-bottom: 1px solid rgb(133, 130, 130);
+}
+
+input[type=text],
+input[type=password]
+{
+    width: 520px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: -5px;
+    background-color: rgba(250, 246, 246, 0.815);
+    border: 2px solid #ddd;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit]
+{
+    width: 520px;
+    height: 40px;
+    background-color:rgb(127, 170, 40);
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+}
+
+.click{
+    width: 520px;
+    height: 50px;
+    vertical-align:middle;
+    margin-top: 10px;
+    padding: 3%;
+    background-color:rgba(221, 221, 221, 0.432);
+    box-sizing: border-box; 
+}
+
+/* child1 - "Zapamiętaj mnie"*/
+#child1 {
+    float:left;
+  }
+
+/* child2 - "Zapomniałem hasła"*/
+#child2 {
+    float:right;  
+}
+
+/* zachowanie hiperłącza*/
+a:link{
+   color:green;
+}
+
+a:visited{
+    color:blue;
+    text-decoration:navy;
+}
+
+a:hover{
+   color:yellowgreen;
+   text-decoration: none;
+}
+
+a:active{
+   color: gray;
+}
