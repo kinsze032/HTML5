@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+    <meta charset="UTF-8">
+    <title>Logowanie do systemu</title>
+    <meta name="description" content="Strona wizalizuje efekty mojej pracy podczas kursu">
+    <meta name="keyword" content="html, css, kurs, logowanie">
+    <meta name="keywords" content="kurs, html5, css, formularz, logowanie">
+      
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+   
+    <div id="container">
+
+        <!-- form -bez akcji-->
+        <!-- <form> -->
+      
+        <!-- Wysyłanie formularza na dowolny adres mailowy; pobrany z generatora e-maili-->
+        <form action="mailto:kinga@gmailya.com" method="post" target="_blank">
+
+            <div id="naglowek">
+                <h1>Logowanie do systemu</h1>
+            </div>
+
+            <div>
+                <label><p>Nazwa użytkownika<input required type="text" name="firstName" placeholder="Podaj nazwę użytkownika" size="30px" maxlength="20"></p></label>
+                    
+                <label><p>Hasło<input required type="password" name="pwd" placeholder="Podaj hasło" size="30px" maxlength="20"></p></label>
+                    
+                <label><input type="submit" value="Zaloguj się"></label>
+            </div>
+                
+            <div class="click">
+
+                <div id="child1">
+                    <input type="checkbox" checked>Zapamiętaj mnie
+                </div>
+
+                <div id="child2">
+                    <a href="https://www.kompetencjecyfrowe.eu" target="_blank">Zapomniałem hasła</a>
+                </div>
+
+            </div>
+
+        </form>
+         
+    </div>
+          
+
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
